@@ -116,7 +116,27 @@ const person = {
   let {lastName, firstName} = person;
   console.log(lastName +' '+ firstName)
 
-  
+  //spread operator
+
+  let inputOne= [10,20]
+  let inputTwo=[...inputOne,30,40,50]
+  let inputThree=[...inputOne,...inputTwo,60,70,80]
+  console.log(inputTwo)
+  console.log(inputThree)
+
+  //rest operator
+
+  function calculateSum(...input) {
+    let sum = 0;
+    for (let i of input) {
+        sum += i;
+    }
+    return sum;
+}
+console.log(calculateSum(1, 2)); 
+console.log(calculateSum(1, 2, 3)); 
+console.log(calculateSum(1, 2, 3, 4, 5));
+
 
 
 
