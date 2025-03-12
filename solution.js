@@ -55,9 +55,9 @@ const age = 18;
 const status = age >= 18 ? "Adult" : "Minor";
 console.log(status);
 
-let x = 5;
-console.log(++x); 
-console.log(x--);
+let num = 5;
+console.log(++num); 
+console.log(num--);
 
 //function declaration
 function greet(){
@@ -78,7 +78,7 @@ greet2()
 
 
 //template literals
-let strInput='GFG'
+let strInput='subi'
 console.log(`hello ${strInput}`)
 
 //default parameters
@@ -94,6 +94,16 @@ function addNumbers(x,y=10)
     console.log(x+y)
 }
 addNumbers(10)
+
+//array destructuring
+
+const arrayInput = [10, 20, 30, 40]
+
+const [x, y, z, w] = arrayInput;
+console.log(x);
+console.log(y);
+console.log(z);
+console.log(w);
 
 
 
