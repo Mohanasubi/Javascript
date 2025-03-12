@@ -81,4 +81,19 @@ greet2()
 let strInput='GFG'
 console.log(`hello ${strInput}`)
 
+//default parameters
+//default parameter set to undefined
+function multiplyNumbers(x,y)
+{
+    console.log(x*y)
+}
+multiplyNumbers()
+
+function addNumbers(x,y=10)
+{
+    console.log(x+y)
+}
+addNumbers(10)
+
+
 
