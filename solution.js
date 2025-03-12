@@ -77,5 +77,8 @@ const greet2 = ()=>{
 greet2()
 
 
+//template literals
+let strInput='GFG'
+console.log(`hello ${strInput}`)
 
 
