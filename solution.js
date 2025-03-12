@@ -59,3 +59,23 @@ let x = 5;
 console.log(++x); 
 console.log(x--);
 
+//function declaration
+function greet(){
+    console.log("Function declaration")
+}
+greet()
+//function expression
+const greet1 = function(){
+    console.log("expression")
+}
+greet1()
+
+//arrow function
+const greet2 = ()=>{
+    console.log("arrow function")
+}
+greet2()
+
+
+
+
