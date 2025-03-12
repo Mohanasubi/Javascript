@@ -105,5 +105,18 @@ console.log(y);
 console.log(z);
 console.log(w);
 
+//object destructuring
+
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 50
+  };
+  
+  let {lastName, firstName} = person;
+  console.log(lastName +' '+ firstName)
+
+  
+
 
 
